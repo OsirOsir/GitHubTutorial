@@ -22,7 +22,30 @@
     <dl>reach out to this <a href="https://github.com/OsirOsir/GitHubTutorial">Link</a></dl>
     <dt>Are our clients avilable round the clock</dt>
     <dl>Yes we are always available 24 hr, you can contact us through <a href="tel:+254715092213">Phone</a> </dl>
-  </dl>
+    </dl>
+    <div>
+      <form action="/submit_form" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name" placeholder="First Name" required><br><br>
+  
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" name="last_name" placeholder="Last Name" required><br><br>
+  
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" placeholder="Age" required><br><br>
+  
+          <label for="">Gender</label>
+          <input type="checkbox" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="checkbox" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+  
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </div>
   </main>
   <footer></footer>
 </body>
