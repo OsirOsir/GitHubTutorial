@@ -1,6 +1,21 @@
+body{
+  padding: 0;
+  margin: 0;
+
+}
+header{
+  margin: 0;
+}
 .header_details{
   width: 100%;
   background-color: aqua;
   height: 50px;
   font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_details a{
+  text-decoration: none; 
+  font-weight: bolder;
 }
